@@ -144,3 +144,6 @@ body{
 .css-1c6t69t-MuiGrid-root{
     max-width:295px !important;
 }
+.css-1gr4ds8 > .MuiGrid-item {
+    padding-left: 0 !important;
+}

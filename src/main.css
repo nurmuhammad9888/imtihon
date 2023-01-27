@@ -1,0 +1,146 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Rotterburg-Display-Font';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('./assets/fonts/Rotterburg-Display-Font.woff2') format('woff2'),
+        url('./assets/fonts/Rotterburg-Display-Font.woff') format('woff');
+    }
+/* GENERAL */
+*{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    height: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "Arial", sans-serif !important;
+    overflow-x: hidden;
+}
+/* VISUALLY-HIDDEN */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* CONTAINER */
+.container{
+    width: 100%;
+    max-width:1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* STICKY-FOOTER */
+.site-main{
+    flex-grow: 1;
+}
+.slick-dots li {
+    position: relative !important;
+    display: inline-block !important;
+    width: 57px !important;
+    height: 3px !important;
+    cursor: pointer !important;
+}
+.slick-dots li.slick-active  div{
+    background: #fff !important;
+}
+.slick-prev{
+    display: none !important;
+}
+.slick-next{
+    display: none !important;
+}
+.hero{
+    background-image: url("./assets/images/bg-hero.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slick-track{
+    margin: 0 !important;
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+    background-image: url("./assets/images/select-arrow.svg");
+    background-repeat: no-repeat;
+}
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon{
+    background-image: url("./assets/images/select-arrow.svg");
+    background-repeat: no-repeat;
+}
+.css-bpeome-MuiSvgIcon-root-MuiSelect-icon path{
+    display: none !important;
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon path{
+    display: none !important;
+}
+.css-i4bv87-MuiSvgIcon-root path{
+    display: none !important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    background-image: url("./assets/images/serach-icon.png");
+    background-repeat: no-repeat;
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper{
+    /* top: 35px !important; */
+    background-color: #F5F5F5 !important;
+    border-radius: 10px !important;
+}
+.css-1xlx3sr-MuiPaper-root{ background-image: none !important;
+}
+.css-5tgo0f-MuiPaper-root{
+    background-image: none !important;
+}
+.css-i6e00v-MuiPaper-root{
+    background-image: none !important;
+}
+.css-5bmun3-MuiFormControl-root-MuiTextField-root{
+    border-radius: 4px !important;
+}
+.css-81x308-MuiFormControl-root-MuiTextField-root{
+    border-radius: 4px;
+}
+.css-tc3ycq-MuiButtonBase-root-MuiSwitch-switchBase{
+    top: -6px !important;
+}
+.css-tc3ycq-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked{
+    transform: translateX(45px) !important;
+}
+.css-1qt2jsy-MuiInputBase-root-MuiOutlinedInput-root{
+    /* color: #000 !important; */
+}
+.css-1ik4u3b-MuiButtonBase-root-MuiSwitch-switchBase{
+    top: -6px !important;
+    left: -5px !important;
+    color: #3699FF !important;
+}
+.css-buwsa1-MuiGrid-root>.MuiGrid-item{
+    padding: 0 !important;
+}
+.css-1c6t69t-MuiGrid-root{
+    max-width:295px !important;
+}
